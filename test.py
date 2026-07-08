@@ -7,7 +7,7 @@ def example1():
     'other':[math.pi, 100,200,300,9876543210,'This is a long string that goes on'],
     'more':{'inner':'This whole logical line should be wrapped.',some_tuple:[1,
     20,300,40000,500000000,60000000000000000]}}
-    return (some_tuple, some_variable)
+    return (some_tuple, some_variable) 
 def example2(): return {'has_key() is deprecated':True}.has_key({'f':2}.has_key(''));
 class Example3(   object ):
     def __init__    ( self, bar ):
